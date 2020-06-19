@@ -1,0 +1,91 @@
+* {
+    margin: auto;
+}
+
+
+/*Custom Properties*/
+:root {
+    --ff-primary: 'Spource Sans Pro', sans-serif;
+    --ff-secondary: 'Source Code Pro', monospace;
+
+    --fw-reg: 400;
+    --fw-bold: 900;
+
+    --clr-light: #ffffff;
+    --clr-dark: #000000;
+    --clr-light-accent: #2274a5;
+    --clr-dark-accent: #131b23; 
+
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.15rem;
+    --fs-body: 1rem;
+
+    --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),0.25em 0.25em 0.75em rgba(0,0,0,.55);
+}
+
+
+
+#spacex {
+    background-image: linear-gradient(var(--clr-dark), var(--clr-dark-accent));;
+    color: var(--clr-light);
+    box-shadow: var(--bs);
+}
+
+#main-menu {
+    display: flex;
+}
+
+#subMenu {
+    justify-self: center;
+    max-width: 80%;
+    display: block;
+    width: 80%;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+button{
+    transition: all 0.5s ease-in-out;
+    background: var(--clr-light-accent);
+    color:var(--clr-light);
+    width:100%;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background: var(--clr-dark-accent);
+    color: var(--clr-light-accent);
+}
+
+#output{
+    justify-content: center;
+    margin: auto;
+}
+
+iframe {
+    display: block;
+}
+
+p {
+    margin: 10px;
+}
+li{
+    list-style-type: none;
+}
+
+h4, h3 {
+    width: 90%;
+    background: var(--clr-dark-accent);
+    color: var(--clr-light);
+}
+
+h5 {
+    width: 80%;
+    background: var(--clr-light-accent);
+    color:var(--clr-dark)
+}
